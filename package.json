@@ -1,0 +1,32 @@
+{
+  "name": "back-end-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "auto-increment-plugin": "^0.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "node": "^15.10.0",
+    "simple-mongoose-autoincrement": "^1.2.1",
+    "sinon-as-promised": "^4.0.3"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveteam/back-end-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naveteam/back-end-challenge/issues"
+  },
+  "homepage": "https://github.com/naveteam/back-end-challenge#readme",
+  "description": ""
+}

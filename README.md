@@ -40,7 +40,7 @@
 - Login: O usuario logado informa o name e password para logar no formato JSON , retorna os dados e um token de usuario logado.
 
 # Rotas Navers
-Estas rotas só são acessíveis se o usuario estiver logado, para logar para as rotas do naver é necessário colocar na aba Header um novo Header chamado Authorization e o value deve ser preenchido com a palavra Bearer e o token. Ex. Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTU0OTI2NzMsImV4cCI6MTYxNTU3OTA3M30.mB14cmMMzxh4dqfIfSMV9Ym8Y2i8QJCzwyWtLp3Z2wI.
+Estas rotas só são acessíveis se o usuário estiver logado, para logar para as rotas do naver é necessário colocar na aba Header um novo Header chamado Authorization e o value deve ser preenchido com a palavra Bearer e o token. Ex. Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTU0OTI2NzMsImV4cCI6MTYxNTU3OTA3M30.mB14cmMMzxh4dqfIfSMV9Ym8Y2i8QJCzwyWtLp3Z2wI.
 - Store: Cadastra o name, birthdate, admission_date, job_role e a referencia(id) do project, informado no formato JSON e retorna os dados.
 - Index: Com um name informado no final da url (http://127.0.0.1:8080/index/name) retorna o registro que contem a palavra.
 - Update: Com um id informado no final da url (http://127.0.0.1:8080/update/id), os dados para serem atualizados no formato JSON, faz a operação de update.
